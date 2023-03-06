@@ -37,7 +37,7 @@ public class ForwardCommand extends BaseCommand {
         sender.sendMessage(new MineDown("&b[/forward](show_text=&cClick me for execute suggest_command=/forward) &7- Shows you this message").toComponent());
         sender.sendMessage(new MineDown("&b[/forward <player> <command> [args...]](show_text=&cClick me for execute suggest_command=/forward ) &7- Execute as <player>").toComponent());
         sender.sendMessage(new MineDown("&b[/forward @p <command> [args...]](show_text=&cClick me for execute suggest_command=/forward @p) &7- Execute as You").toComponent());
-        sender.sendMessage(new MineDown("&b[/forward @a <command> [args...]](show_text=&cClick me for execute suggest_command=/forward @a) &7- Execute as Online players").toComponent());
+        sender.sendMessage(new MineDown("&b[/forward @a <command> [args...]](show_text=&cClick me for execute suggest_command=/forward @a) &7- Execute as Proxy Online players").toComponent());
         sender.sendMessage(new MineDown("&b[/forward @s <command> [args...]](show_text=&cClick me for execute suggest_command=/forward @s) &7- Execute as Current Server players").toComponent());
         sender.sendMessage(new MineDown("&b[/forward @lobby <command> [args...]](show_text=&cClick me for execute suggest_command=/forward @) &7- Execute as all player in the 'lobby' server").toComponent());
     }
