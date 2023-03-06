@@ -4,7 +4,7 @@ forward commands to a Bungeecord server.
 
 # Commands
 
-- ``/forward`` - Shows you help command
+- ``/forward`` - Shows you help commands
 - ``/forward <player> <command> [args...]`` - Execute as <player>
 - ``/forward @p <command> [args...]`` - Execute as You
 - ``/forward @a <command> [args...]`` - Execute as Online players
