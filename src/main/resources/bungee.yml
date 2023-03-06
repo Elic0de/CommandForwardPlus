@@ -1,0 +1,4 @@
+name: CommandForwardPlus
+version: '${project.version}'
+main: net.japanpvpserver.commandforwardplus.CommandForwardPlus
+author: Elic0de
