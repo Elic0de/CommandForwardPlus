@@ -54,6 +54,7 @@ public final class CommandForwardPlus extends Plugin {
 
         commandManager.getCommandCompletions().registerCompletion("cmd", context -> getProxy().getPluginManager().getCommands()
                 .stream()
+                .filter(entry -> !settings.getIgnoreCommands().contains(entry.getKey()))
                 .map(Map.Entry::getKey).collect(Collectors.toList()));
 
         commandManager.registerCommand(new ForwardCommand(this));
