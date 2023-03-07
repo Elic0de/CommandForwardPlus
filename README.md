@@ -9,7 +9,7 @@ forward commands to a Bungeecord server.
 - ``/forward @p <command> [args...]`` - Execute as You
 - ``/forward @a <command> [args...]`` - Execute as Proxy Online players
 - ``/forward @s <command> [args...]`` - Execute as Current Server players
-- ``/forward @lobby <command> [args...]`` - Execute as all player in the 'lobby' server"
+- ``/forward @lobby <command> [args...]`` - Execute as all player in the 'lobby' server
 
 ### Permission
 - ``forward``
